@@ -1,0 +1,10 @@
+<?php
+
+namespace {{ namespace }};
+
+use Caleb\LaravelPractice\Service;
+
+class {{ class }} extends Service
+{
+
+}

@@ -1,0 +1,37 @@
+{
+    "name": "caleb/laravel-practice",
+    "description": "laravel practice 开箱即用的开发包，处理响应，filter，service，异常处理",
+    "keywords": [
+        "laravel",
+        "response",
+        "request-id",
+        "service",
+        "filter",
+        "exception-handler",
+        "model-standardization"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Caleb\\Practice\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "caleb",
+            "email": "caleb.meteor@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-json": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Caleb\\Practice\\PracticeServiceProvider"
+            ]
+        }
+    }
+}

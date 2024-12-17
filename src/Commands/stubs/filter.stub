@@ -1,0 +1,10 @@
+<?php
+
+namespace {{ namespace }};
+
+use Caleb\LaravelPractice\QueryFilter;
+
+class {{ class }} extends QueryFilter
+{
+
+}
