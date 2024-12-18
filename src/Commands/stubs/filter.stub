@@ -2,7 +2,7 @@
 
 namespace {{ namespace }};
 
-use Caleb\LaravelPractice\QueryFilter;
+use Caleb\Practice\QueryFilter;
 
 class {{ class }} extends QueryFilter
 {

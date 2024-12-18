@@ -2,7 +2,7 @@
 
 namespace {{ namespace }};
 
-use Caleb\LaravelPractice\Service;
+use Caleb\Practice\Service;
 
 class {{ class }} extends Service
 {
