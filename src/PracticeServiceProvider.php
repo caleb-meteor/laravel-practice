@@ -59,6 +59,7 @@ class PracticeServiceProvider extends ServiceProvider
     public function registerLang()
     {
         $this->loadTranslationsFrom(__DIR__ . '/../lang', 'practice');
+        $this->publishes([__DIR__ . '/../lang' => resource_path('lang/vendor/practice')], ['practice-lang']);
     }
 
     /**
