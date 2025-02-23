@@ -1,6 +1,6 @@
 {
     "name": "caleb/laravel-practice",
-    "description": "laravel practice 开箱即用的开发包，处理响应，filter，service，异常处理",
+    "description": "A Laravel practice development package, ready to use out of the box. It simplifies handling responses, filters, services, and exception management.",
     "keywords": [
         "laravel",
         "response",
