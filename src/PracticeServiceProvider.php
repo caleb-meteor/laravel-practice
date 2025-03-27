@@ -12,7 +12,6 @@ use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Contracts\Http\Kernel as HttpKernel;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Foundation\Configuration\Exceptions;
-use Illuminate\Foundation\Configuration\Middleware;
 use Illuminate\Foundation\Exceptions\Handler;
 use Illuminate\Http\Exceptions\ThrottleRequestsException;
 use Illuminate\Support\ServiceProvider;
@@ -126,11 +125,6 @@ class PracticeServiceProvider extends ServiceProvider
     public function registerMiddleware()
     {
         $this->app->make(HttpKernel::class)->prependMiddleware(AddContext::class);
-
-        $this->app->afterResolving(HttpKernel::class, function ($kernel) {
-            $middleware = (new Middleware);
-            $middleware->redirectGuestsTo('');
-        });
     }
 
     /**
