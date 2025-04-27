@@ -2,7 +2,7 @@
 
 return [
     'system'   => [
-        'busy' => 'System busy, please try again later.',
+        'error' => 'System busy, please try again later.',
         'success' => 'success'
     ],
     'resource' => [

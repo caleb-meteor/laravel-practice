@@ -28,7 +28,7 @@ trait Response
     /**
      * @return JsonResponse
      */
-    public function jsonResponse(mixed $data = null, int $code = BaseResponse::HTTP_OK, string $message = '', array $headers = [])
+    protected function jsonResponse(mixed $data = null, int $code = BaseResponse::HTTP_OK, string $message = '', array $headers = [])
     {
         $formatData = [
             'code' => $code,
