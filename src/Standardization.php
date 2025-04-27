@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Builder;
 
 trait Standardization
 {
-    protected function asJson($value, $flags = JSON_UNESCAPED_UNICODE)
+    protected function asJson($value)
     {
-        return json_encode($value, $flags);
+        return json_encode($value, JSON_UNESCAPED_UNICODE);
     }
 
     public function toJson($option = JSON_UNESCAPED_UNICODE)
