@@ -24,11 +24,11 @@
         }
     ],
     "require": {
-        "php": "^8.2",
+        "php": "^8.1",
         "ext-json": "*"
     },
     "conflict": {
-        "illuminate/database": "<12.0"
+        "illuminate/database": "<10.0 || >=12.0"
     },
     "extra": {
         "laravel": {
