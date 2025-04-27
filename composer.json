@@ -25,7 +25,8 @@
     ],
     "require": {
         "php": "^8.2",
-        "ext-json": "*"
+        "ext-json": "*",
+        "illuminate/database": "^12"
     },
     "extra": {
         "laravel": {
