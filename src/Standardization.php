@@ -22,11 +22,6 @@ trait Standardization
         return request()->input('per_page', $this->perPage);
     }
 
-    protected function serializeDate(\DateTimeInterface $date)
-    {
-        return $date->format('Y-m-d H:i:s');
-    }
-
     public function scopeFilter(Builder $query, QueryFilter $filter)
     {
         return $filter->apply($query);
