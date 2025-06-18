@@ -222,7 +222,6 @@ class User extends Model
 
 优势：
 - 使用 `JSON_UNESCAPED_UNICODE` 标志进行 JSON 序列化
-- 标准化日期格式 (`Y-m-d H:i:s`)
 - 从请求参数动态获取 `per_page`
 - 内置 `filter` 作用域用于查询过滤
 

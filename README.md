@@ -222,7 +222,6 @@ class User extends Model
 
 Benefits:
 - JSON serialization with `JSON_UNESCAPED_UNICODE` flag
-- Standardized date format (`Y-m-d H:i:s`)
 - Dynamic `per_page` from request parameters
 - Built-in `filter` scope for query filtering
 
